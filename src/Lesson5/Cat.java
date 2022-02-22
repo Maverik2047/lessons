@@ -15,4 +15,9 @@ public class Cat extends Animal{
     public void setLiveCount(int liveCount){
         this.liveCount=liveCount;
     }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Gaw");
+    }
 }
